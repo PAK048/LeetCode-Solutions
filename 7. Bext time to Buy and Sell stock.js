@@ -18,6 +18,4 @@ var maxProfit = function (prices) {
       maxProfit = Math.max(maxProfit, prices[i] - minPrice);
     }
   }
-
-  return maxProfit;
 };
